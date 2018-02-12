@@ -1,3 +1,26 @@
 body {
     padding-top: 5rem;
 }
+
+img {
+    float: left;
+    margin: 5px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.realname {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+#info {
+    float: left;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid lightgray;
+}

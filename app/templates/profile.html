@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" type="text/css" />
+
+<h1>Profile</h1>
+<hr/>
+
+<img src="{{ url_for('static', filename='pic.jpg') }}"/>
+
+<div id="info">
+    <p class="titles">Sy Moore</p>
+    <hr/>
+    
+    <p><span class="title">Date Joined</span></span> {{ time }}</p>
+    <hr/>
+    
+    <p><span class="title">Username:</span> syemoore</p>
+    <p><span class="title">ID Number:</span> 620033093</p>
+    <p><span class="title">Age:</span> 26</p>
+    <p><span class="title">Gender:</span> Male</p>
+    
+    <hr/>
+    <p>Third year Computer Science Major</p>
+</div>
+
+{% endblock %}
